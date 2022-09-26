@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Image from '../../public/InitialPhoto.jpg'
 
 export const ContainerImage = styled.div`
     display: flex;
