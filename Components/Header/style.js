@@ -7,7 +7,6 @@ export const Container = styled.div`
   justify-content: center;
   z-index: 5;
 `;
-
 export const Content = styled.div`
   width: 100%;
   display: flex;
@@ -18,7 +17,6 @@ export const Content = styled.div`
     justify-content: end;
   }
 `;
-
 export const NavLinks = styled.nav`
   display: flex;
   justify-content: space-evenly;
@@ -45,7 +43,6 @@ export const NavLinks = styled.nav`
     }
   }
 `;
-
 export const Ancora = styled.a`
   font-size: 20px;
   height: 100px;
@@ -54,30 +51,25 @@ export const Ancora = styled.a`
   &.active {
     background-color: black;
   }
-
   &:hover {
         text-shadow: 2px 2px 4px #D9D9D9;
     }
-
   @media (min-width: 560px) {
     align-items: center;
     display: flex;
     padding: 0px 10px;
   }
 `;
-
 export const Menu = styled.div`
   font-size: 30px;
   display: none;
   cursor: pointer;
-  
   
   @media (max-width: 560px) {
     display: flex;
     padding-right: 1rem;
   }
 `;
-
 export const CloseSidebar = styled.div`
   font-size: 30px;
   right: 1rem;
@@ -85,7 +77,6 @@ export const CloseSidebar = styled.div`
   position: absolute;
   display: none;
   cursor: pointer;
-  
   @media (max-width: 560px) {
     display: flex;
     right: 1rem;
