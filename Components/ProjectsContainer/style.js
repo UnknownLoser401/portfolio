@@ -48,8 +48,18 @@ export const DescriptionText = styled.p`
 `;
 export const Carousel = styled(Image)`
     display: flex;
-    height: 450;
-    width:300;
     border-radius: 50px;
     border: solid;
+`;
+export const CarouselDiv = styled.div`
+    display: flex;
+`;
+export const DotsContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+export const Dots = styled.div`
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
 `;
