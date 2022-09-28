@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     padding: 0 5vh 0 5vh;
     background-color: #D9D9D9;
