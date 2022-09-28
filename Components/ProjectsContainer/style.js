@@ -20,7 +20,7 @@ export const Title = styled.h1`
     font-weight: 400;
     font-variant: small-caps;
     padding: 15px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 
     @media only screen and (max-width: 500px) {
         font-size: 62px;
@@ -30,6 +30,7 @@ export const Title = styled.h1`
     }
     @media only screen and (min-width: 1024px) {
         font-size: 78px;
+        padding-bottom: 40px;
     }
 `;
 export const DescriptionText = styled.p`
@@ -49,12 +50,17 @@ export const DescriptionText = styled.p`
     }
 `;
 export const Carousel = styled(Image)`
-    display: flex;
     border-radius: 50px;
     border: solid;
-    max-height: 70vh;
+    margin: 0;
+    height: 70vh;
+    width: 70vh;
+    max-height: 570px;
 `;
 export const CarouselDiv = styled.div`
+    height: 70%;
+    width: 70%;
+    display: block;
 `;
 export const DotsContainer = styled.div`
     display: flex;
