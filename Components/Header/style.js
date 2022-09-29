@@ -52,7 +52,7 @@ export const Ancora = styled.a`
     background-color: black;
   }
   &:hover {
-        text-shadow: 2px 2px 4px #D9D9D9;
+    text-shadow: 2px 2px 4px #D9D9D9;
     }
   @media (min-width: 560px) {
     align-items: center;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Image from 'next/image';
 
 export const Container = styled.div`
     display: flex;
@@ -20,7 +19,6 @@ export const Title = styled.h1`
     font-weight: 400;
     font-variant: small-caps;
     padding: 15px;
-    padding-bottom: 20px;
 
     @media only screen and (max-width: 500px) {
         font-size: 62px;
@@ -30,37 +28,58 @@ export const Title = styled.h1`
     }
     @media only screen and (min-width: 1024px) {
         font-size: 78px;
-        padding-bottom: 40px;
+        padding-bottom: 25px;
     }
 `;
-export const DescriptionText = styled.p`
+export const DescriptionText = styled.div`
     color: white;
-    font-size: 22px;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
     font-family: Inter;
     font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
 
     @media only screen and (max-width: 500px) {
-        font-size: 20px;
-    }
-    @media only screen and (max-width: 400px) {
         font-size: 16px;
     }
+    @media only screen and (max-width: 400px) {
+        font-size: 14px;
+    }
     @media only screen and (min-width: 1024px) {
-        font-size: 24px;
+        font-size: 22px;
     }
 `;
-export const Carousel = styled(Image)`
+export const Carousel = styled.div`
+    position: relative;
     border-radius: 50px;
     border: solid;
-    margin: 0;
-    height: 70vh;
-    width: 70vh;
-    max-height: 570px;
+    border-width: 3px;
+    border-color: #C2C2C2;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-image:url(${props => props.image});
+
+    &:hover {
+        .Description {
+            display: block;
+        }
+    }
 `;
+
 export const CarouselDiv = styled.div`
     height: 70%;
     width: 70%;
-    display: block;
 `;
 export const DotsContainer = styled.div`
     display: flex;
