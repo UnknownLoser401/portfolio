@@ -5,7 +5,7 @@ import { FaReact } from 'react-icons/fa'
 export default function KnowledgeContainer() {
   const [infoText, setInfoText] = useState('Passe o mouse sobre alguma Skill para saber mais sobre ela.')
   return (
-    <Container>
+    <Container id='Conhecimentos'>
       <Title>
         Conhecimentos
       </Title>

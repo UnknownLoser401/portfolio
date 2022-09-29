@@ -15,10 +15,10 @@ export default function Header() {
         </Menu>
         <NavLinks sidebar={sidebar}>
           <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
-            <Ancora onClick={showSiderbar}>Quem sou</Ancora>
-            <Ancora onClick={showSiderbar}>Projetos</Ancora>
-            <Ancora onClick={showSiderbar}>Conhecimentos</Ancora>
-            <Ancora onClick={showSiderbar}>Contato</Ancora>
+            <Ancora href='#Sobre' onClick={showSiderbar}>Quem sou</Ancora>
+            <Ancora href='#Projetos' onClick={showSiderbar}>Projetos</Ancora>
+            <Ancora href='#Conhecimentos' onClick={showSiderbar}>Conhecimentos</Ancora>
+            <Ancora href='#Contato' onClick={showSiderbar}>Contato</Ancora>
         </NavLinks>
       </Content>
     </Container>

@@ -4,7 +4,7 @@ import { FaPhone, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 
 export default function ContactContainer() {
   return (
-    <Container>
+    <Container id='Contato'>
       <Title>
         Contact
       </Title>

@@ -3,7 +3,7 @@ import { AboutText, Container, Title } from './style'
 
 export default function AboutContainer() {
   return (
-    <Container>
+    <Container id='Sobre'>
         <Title>
           Sobre
         </Title>

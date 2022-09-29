@@ -4,7 +4,9 @@ import { Arrow, ContainerImage } from './style'
 export default function InitialContainer() {
   return (
     <ContainerImage>
-        <Arrow />
+        <a href='#Sobre'>
+          <Arrow />
+        </a>
     </ContainerImage>
   )
 }
