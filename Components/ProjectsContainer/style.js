@@ -26,6 +26,9 @@ export const Title = styled.h1`
     @media only screen and (max-width: 400px) {
         font-size: 52px;
     }
+    @media only screen and (max-width: 240px) {
+        font-size: 32px;
+    }
     @media only screen and (min-width: 1024px) {
         font-size: 78px;
         padding-bottom: 25px;

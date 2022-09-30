@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-      <title>titutltotilo</title>
+      <title>Nascimento Portfolio</title>
     </Head> 
     <Header />
     <Component {...pageProps} />

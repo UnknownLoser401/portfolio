@@ -22,6 +22,7 @@ export const NavLinks = styled.nav`
   justify-content: space-evenly;
   box-sizing: border-box;
   width: 100%;
+  z-index: 15;
 
   @media (max-width: 560px) {
     flex-direction: column;
