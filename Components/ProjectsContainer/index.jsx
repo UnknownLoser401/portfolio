@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { DescriptionText, Container, Title, Carousel, CarouselDiv, DotsContainer, Dots } from './style'
 
 
@@ -18,6 +18,21 @@ export default function ProjectsContainer() {
   ]
   const [indexImg, SetIndexImg] = useState(2)
 
+  const [autoPlay, setAutoPlay] = useState(true);
+  let timeOut = null;
+
+  useEffect(() => {
+    timeOut =
+      autoPlay &&
+      setTimeout(() => {
+        rightImage(indexImg);
+      }, 10000);
+  });
+
+  const rightImage = useCallback((indexImg) => {
+    SetIndexImg( indexImg === images.length - 1 ? 0 : indexImg + 1)
+  })
+
   const chooseImage = (indexImg) => {
     SetIndexImg(indexImg);
   }
@@ -27,7 +42,15 @@ export default function ProjectsContainer() {
       <Title>
         Projetos
       </Title>
-      <CarouselDiv>
+      <CarouselDiv 
+      onMouseEnter={() => {
+        setAutoPlay(false);
+        clearTimeout(timeOut);
+      }}
+      onMouseLeave={() => {
+        setAutoPlay(true);
+      }}
+        >
         <a href={links[indexImg]} target="_blank" >
           <Carousel
             image={images[indexImg]}
@@ -38,10 +61,11 @@ export default function ProjectsContainer() {
           </Carousel>
         </a>
         <DotsContainer>
-          {images.map((images, indexImg) => (
+          {images.map((images, number) => (
             <Dots
-              key={indexImg}
-              onClick={() => chooseImage(indexImg)}
+              key={number}
+              onClick={() => chooseImage(number)}
+              style={{color: (number == indexImg) ?  'black' : 'currentcolor' }}
             >
               ●
             </Dots>
