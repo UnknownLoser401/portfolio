@@ -72,6 +72,7 @@ export const Carousel = styled.div`
     background-position: center;
     overflow: hidden;
     background-image:url(${props => props.image});
+    transition: background-image 1s;
 
     &:hover {
         .Description {

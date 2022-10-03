@@ -18,4 +18,5 @@ export const Arrow = styled.i`
     padding: 35px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    transition: transform 0.5s;
 `;
