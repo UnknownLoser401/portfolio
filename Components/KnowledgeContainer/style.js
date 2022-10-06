@@ -140,6 +140,9 @@ export const CardContainer = styled.div`
         align-items: center;
         gap: 30px;
     }
+    @media only screen and (min-width: 1024px) {
+        gap: 50px;
+    }
 `;
 export const ContentContainer = styled.div`
     display: flex;

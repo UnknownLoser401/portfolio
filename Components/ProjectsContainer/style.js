@@ -73,6 +73,7 @@ export const Carousel = styled.div`
     overflow: hidden;
     background-image:url(${props => props.image});
     transition: background-image 1s;
+    cursor: pointer;
 
     &:hover {
         .Description {
@@ -80,7 +81,6 @@ export const Carousel = styled.div`
         }
     }
 `;
-
 export const CarouselDiv = styled.div`
     height: 70%;
     width: 70%;
@@ -98,5 +98,45 @@ export const Dots = styled.div`
     &:hover {
         color: black;
         text-shadow: 0px 0px 5px #2C2C2C
+    }
+`;
+export const RightArrow = styled.div`
+    color: white;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 0;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    padding:10px;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 5;
+    cursor: pointer;
+    border-radius: 10% 0 0 10%;
+
+    &:hover{
+        box-shadow: 0px 0px 5px #C2C2C2;
+        transition: 0.5s;
+}
+`;
+export const LeftArrow = styled.div`
+    color: white;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    padding:10px;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 5;
+    cursor: pointer;
+    border-radius: 0 10% 10% 0;
+
+    &:hover{
+        box-shadow: 0px 0px 5px #C2C2C2;
+        transition: 0.5s;
     }
 `;
