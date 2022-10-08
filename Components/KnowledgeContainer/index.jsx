@@ -37,7 +37,7 @@ export default function KnowledgeContainer() {
             <p style={{ paddingBottom: 10, fontSize: 14 }}>CSS</p>
             <FaCss3Alt style={{ height: '55%', width: '55%'}} />
           </KnowCard>
-          <KnowCard onMouseOver={ () => setInfoText('Python é uma linguagem de programação de alto nível, dinâmica, interpretada, modular, multiplataforma e orientada a objetosSua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo.') }>
+          <KnowCard onMouseOver={ () => setInfoText('Python é uma linguagem de programação de alto nível, dinâmica, interpretada, modular, multiplataforma e orientada a objetos. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo.') }>
             <p style={{ paddingBottom: 10, fontSize: 14 }}>Python</p>
             <FaPython style={{ height: '55%', width: '55%'}} />
           </KnowCard>
