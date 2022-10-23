@@ -19,4 +19,14 @@ export const Arrow = styled.i`
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transition: transform 0.5s;
+
+    &:hover {
+    animation: up-to-down 0.8s forwards infinite alternate;
+    }
+    @keyframes up-to-down {
+        100%{
+            box-shadow: 1px 1px 0 0 #161616;
+            transform: translateY(35%) rotate(45deg);
+        }
+    }
 `;
