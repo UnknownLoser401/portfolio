@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Container, NavLinks, Ancora, Content, Menu, CloseSidebar} from './style'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import Link from 'next/link'
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false)

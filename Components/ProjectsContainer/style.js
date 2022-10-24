@@ -84,6 +84,14 @@ export const Carousel = styled.div`
 export const CarouselDiv = styled.div`
     height: 70%;
     width: 70%;
+
+    @media only screen and (max-width: 700px) {
+        height: 80%;
+        width: 80%;
+    }
+    @media only screen and (max-width: 420px) {
+        width: 90%;
+    }
 `;
 export const DotsContainer = styled.div`
     display: flex;

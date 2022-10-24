@@ -4,7 +4,7 @@ import { FaCss3Alt, FaJs, FaPython, FaReact } from 'react-icons/fa';
 import { SiTypescript }  from "react-icons/si";
 
 export default function KnowledgeContainer() {
-  const [infoText, setInfoText] = useState('Passe o mouse sobre alguma Skill para saber mais sobre ela.')
+  const [infoText, setInfoText] = useState('Toque alguma Skill para saber mais sobre ela.');
   return (
     <Container id='Conhecimentos'>
       <Title>
