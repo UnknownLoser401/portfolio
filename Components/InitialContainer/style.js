@@ -9,7 +9,7 @@ export const ContainerImage = styled.div`
     height: 90vh;
     width: 100%;
     background-size: cover;
-    background-position: right;
+    background-position: 94%;
 `;
 export const Arrow = styled.i`
     border: solid black;

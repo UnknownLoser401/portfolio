@@ -11,6 +11,11 @@ export const Container = styled.div`
     width: 100%;
     padding: 0 5vh 0 5vh;
     gap: 1vh;
+
+
+    @media only screen and (max-width: 500px) {
+        padding: 0 2vh 0 2vh;
+    }
 `;
 export const Title = styled.h1`
     color: #2C2C2C;
@@ -80,17 +85,24 @@ export const Carousel = styled.div`
             display: block;
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        &:hover {
+            .Description {
+                display: none;
+            }
+        }
+    }
 `;
 export const CarouselDiv = styled.div`
     height: 70%;
     width: 70%;
 
-    @media only screen and (max-width: 700px) {
-        height: 80%;
-        width: 80%;
+    @media only screen and (max-width: 500px) {
+        height: 75%;
     }
     @media only screen and (max-width: 420px) {
-        width: 90%;
+        width: 80%;
     }
 `;
 export const DotsContainer = styled.div`
