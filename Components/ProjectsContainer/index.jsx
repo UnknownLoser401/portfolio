@@ -9,7 +9,7 @@ export default function ProjectsContainer() {
   const image4 = '/Carousel/RunningApp.png'
   const image5 = '/Carousel/css.png'
   const image6 = '/Carousel/invertido.png'
-  const image7 = '/Carrousel/elmSite.gif'
+  const image7 = '/Carousel/elmPage.gif'
 
 
   const gif = '/Carousel/gif/Barbearia.gif'
