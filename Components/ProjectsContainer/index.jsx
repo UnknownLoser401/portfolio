@@ -3,13 +3,13 @@ import { DescriptionText, Container, Title, Carousel, CarouselDiv, DotsContainer
 
 
 export default function ProjectsContainer() {
-  const image1 = '/Carousel/BarbeariaFerreira.png'
-  const image2 = '/Carousel/Lacrei.png'
-  const image3 = '/Carousel/PetPlan.png'
-  const image4 = '/Carousel/RunningApp.png'
-  const image5 = '/Carousel/css.png'
-  const image6 = '/Carousel/invertido.png'
-  const image7 = '/Carousel/elmPage.gif'
+  const image1 = '/Carousel/spaceInvader.png'
+  const image2 = '/Carousel/steamSearch.png'
+  const image3 = '/Carousel/BMI.png'
+  const image4 = '/Carousel/titanicSurvival.png'
+  const image5 = '/Carousel/snakeGame.png'
+  // const image6 = '/Carousel/invertido.png'
+  // const image7 = '/Carousel/elmPage.gif'
 
 
   const gif = '/Carousel/gif/Barbearia.gif'
@@ -17,10 +17,10 @@ export default function ProjectsContainer() {
   const gif2 = '/Carousel/gif/css.gif'
   const gif3 = '/Carousel/gif/PetPlan.gif'
 
-  const descriptions = ['Projeto responsivo criado com React Native, Styled-Componentes, Expo e TypeScript', 'Projeto feito para uma ONG onde foi utilizado ReactJs, TypeScript e CSS', 'Projeto final de um Bootcamp, foi utilizado ReactJs, TypeScript e Tailwind', 'Aplicativo feito para um teste técnico com React Native, TypeScript, Expo e Styled-Components, usando APIs para rastrear velocidade, distância e tempo.', 'Projeto construído no bootcamp da Digital Innovation One, feito com o intuito de desenvolver habilidades de estilização com CSS', 'Projeto construído no bootcamp da Digital Innovation One com opções de tema, no intuito de desenvolver habilidades de estilização com CSS', 'Projeto realizado utilizando a linguagem Elm, buscando me aprimorar com está linguagem funcional e me aprimorar desenvolvendo o design da página.']
+  const descriptions = ['Space Invader Game', 'Steam Game Searching Website', 'BMI Calculator Website', 'Titanic Survival Website', 'Snake Game Website']
 
   const [images, setImages] = useState([
-    image1, image2, image3, image4, image5, image6, image7
+    image1, image2, image3, image4, image5
   ])
 
   const links = [

@@ -14,10 +14,10 @@ export default function Header() {
         </Menu>
         <NavLinks sidebar={sidebar}>
           <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
-            <Ancora href='#Sobre' onClick={showSiderbar}>Quem sou</Ancora>
-            <Ancora href='#Projetos' onClick={showSiderbar}>Projetos</Ancora>
-            <Ancora href='#Conhecimentos' onClick={showSiderbar}>Conhecimentos</Ancora>
-            <Ancora href='#Contato' onClick={showSiderbar}>Contato</Ancora>
+            <Ancora href='#Sobre' onClick={showSiderbar}>Who I am?</Ancora>
+            <Ancora href='#Projetos' onClick={showSiderbar}>Projects</Ancora>
+            <Ancora href='#Conhecimentos' onClick={showSiderbar}>Knowledge/Skills</Ancora>
+            <Ancora href='#Contato' onClick={showSiderbar}>Contact</Ancora>
         </NavLinks>
       </Content>
     </Container>

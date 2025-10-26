@@ -9,7 +9,7 @@ export default function ContactContainer() {
         Contact
       </Title>
       <ContainerInfos>
-        <ContactDiv>
+        {/* <ContactDiv>
           <a href='https://api.whatsapp.com/send?phone=5512992125236' target="_blank" >
             <CircleContact>
               <FaPhone />
@@ -18,18 +18,18 @@ export default function ContactContainer() {
           <a href='https://api.whatsapp.com/send?phone=5512992125236' target="_blank" >
             <ContactText>(12) 99212-5236</ContactText>
           </a>
-        </ContactDiv>
+        </ContactDiv> */}
         <ContactDiv>
-          <a href='mailto:wallacedigo10@hotmail.com' target="_blank" >
+          <a href='mailto:rhyhenryran@gmail.com' target="_blank" >
             <CircleContact>
               <FaMailBulk />
             </CircleContact>
           </a>
-          <a href='mailto:wallacedigo10@hotmail.com' target="_blank" >
+          <a href='mailto:rhyhenryran@gmail.com' target="_blank" >
             <ContactText>E-mail</ContactText>
           </a>
         </ContactDiv>
-        <ContactDiv>
+        {/* <ContactDiv>
           <a href='https://www.linkedin.com/in/wallace-nascimento040/' target="_blank" >
             <CircleContact>
               <FaLinkedin />
@@ -38,14 +38,14 @@ export default function ContactContainer() {
           <a href='https://www.linkedin.com/in/wallace-nascimento040/' target="_blank" >
             <ContactText>Linkedin</ContactText>
           </a>
-        </ContactDiv>
+        </ContactDiv> */}
         <ContactDiv>
-          <a href='https://github.com/SrNascimento40' target="_blank" >
+          <a href='https://github.com/UnknownLoser401' target="_blank" >
             <CircleContact>
               <FaGithub />
             </CircleContact>
           </a>
-          <a href='https://github.com/SrNascimento40' target="_blank" >
+          <a href='https://github.com/UnknownLoser401' target="_blank" >
             <ContactText>Github</ContactText>
           </a>
         </ContactDiv>
