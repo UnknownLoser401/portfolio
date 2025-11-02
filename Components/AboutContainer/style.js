@@ -43,6 +43,10 @@ export const AboutText = styled.p`
     font-size: 22px;
     font-family: Inter;
     font-weight: 300;
+    font-family: Lucida Console;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 3.5px;
 
     @media only screen and (max-width: 500px) {
         font-size: 20px;

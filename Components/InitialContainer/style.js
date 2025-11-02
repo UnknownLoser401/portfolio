@@ -4,7 +4,7 @@ export const ContainerImage = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:url('/InitialPhoto.jpg');
+    background-image:url('/Carousel/IMG_3175.JPG');
     padding-top: 65vh;
     height: 90vh;
     width: 100%;

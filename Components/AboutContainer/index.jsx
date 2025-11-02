@@ -8,7 +8,7 @@ export default function AboutContainer() {
           About myself
         </Title>
         <AboutText>
-        To be done.
+        My name is Henry, from Hong Kong, China. Currently studying in highschool, doing IBDP program. My dream is to study 'Pharmarcy' or 'Philosophy, Politics, Economics' program in university. I have a quite wide range of hobbies: music, playing video game, and photography.
         </AboutText>
     </Container>
   )

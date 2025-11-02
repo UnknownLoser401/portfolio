@@ -50,9 +50,12 @@ export const Title = styled.h1`
 `
 export const TechnicalText = styled.p`
     color: white;
-    font-size: 20px;
-    font-family: Inter;
+    font-size: 25px;
+    font-family: Lucida Console;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
     text-align: start;
     
 
